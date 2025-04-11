@@ -1,0 +1,33 @@
+
+body {
+
+    background: rgb(22, 22, 22);
+    
+
+
+
+}
+
+h1, i {
+    color: rgb(245, 220, 220);
+}
+table, th, td {
+    color: rgb(245, 220, 220);
+    border: 1px solid rgb(245, 220, 220);
+    border-collapse: collapse;
+
+}
+
+th, td {
+
+    padding: 12px 20px;
+
+
+}
+
+div {
+
+    margin: auto;
+    width: fit-content;
+
+}
