@@ -1,7 +1,7 @@
 
 body {
 
-    background: rgb(22, 22, 22);
+    background: rgb(146, 95, 95);
     
 
 
@@ -25,11 +25,20 @@ th, td {
 
 }
 
+th:hover {
+
+    background-color: aliceblue;
+    color: black;
+
+}
+
 div {
 
-    margin: auto;
+    margin: 0 auto;
     width: fit-content;
-
+    
+    background-color: rgb(61, 42, 53);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.589);
 }
 
 img {
@@ -41,5 +50,7 @@ img {
     justify-content: center;
     align-items: center;
     margin: 10px auto 10px;
+
+    border-radius: 10px;
 
 }
