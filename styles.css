@@ -8,13 +8,18 @@ body {
 
 }
 
-h1, i {
+p{
+    text-align: center;
+    font-weight: bold;
+}
+h1, i,p {
     color: rgb(245, 220, 220);
 }
 table, th, td {
     color: rgb(245, 220, 220);
     border: 1px solid rgb(245, 220, 220);
     border-collapse: collapse;
+    background-color: rgb(101, 72, 102);
 
 }
 
@@ -35,10 +40,12 @@ th:hover {
 div {
 
     margin: 0 auto;
-    width: fit-content;
-    
+    max-width: 60%;
+    padding: 10px;
+    align-items: center;
+    border-radius: 15px;
     background-color: rgb(61, 42, 53);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.589);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.589);
 }
 
 img {
